@@ -9,17 +9,27 @@ var defaultTheme = {
   },
   // block element
   block: {
-    h2: {
-      'font-size': '140%',
+    h1: {
+      'font-size': '22px',
       'text-align': 'center',
       'font-weight': 'normal',
       'text-align': 'center',
-      'margin': '80px 10px 40px 10px'
+      'margin': '80px 10px 40px 10px',
+      'color': '#4285f4'
+    },
+    h2: {
+      'font-size': '20px',
+      'text-align': 'center',
+      'font-weight': 'normal',
+      'text-align': 'center',
+      'margin': '80px 10px 40px 10px',
+      'color': '#4285f4'
     },
     h3: {
       'font-weight': 'bold',
       'font-size': '120%',
-      'margin': '40px 10px 20px 10px'
+      'margin': '40px 10px 20px 10px',
+      'color': '#4285f4',
     },
     p: {
       'margin': '10px 10px',
@@ -29,7 +39,7 @@ var defaultTheme = {
       'color': 'rgb(91, 91, 91)',
       'padding': '1px 0 1px 10px',
       'background': 'rgba(158, 158, 158, 0.1)',
-      'border-left': '3px solid rgb(158,158,158)',
+      'border-left': '3px solid #4285f4',
     },
     code: {
       'font-size': '80%',
@@ -49,7 +59,7 @@ var defaultTheme = {
       'width': '100%',
     },
     image_org: {
-      'border-radius': '4px',
+      'border-radius': '6px',
       'display': 'block',
     },
     ol: {
@@ -76,21 +86,24 @@ var defaultTheme = {
     codespan: {
       'font-size': '90%',
       // 'font-family': FONT_FAMILY_MONO,
-      'color': '#ff3502',
+      'color': '#fbbc05',
       'background': '#f8f5ec',
       'padding': '3px 5px',
       'border-radius': '2px',
     },
     link: {
-      'color': '#ff3502'
+      'color': '#fbbc05'
     },
     strong: {
-      'color': '#ff3502'
+      'color': '#fbbc05'
     },
     table: {
       'border-collapse': 'collapse',
       'margin': '20px 0',
+      'font-weight': 'bold',
+      'color': '#eee',
     },
+
     thead: {
       'background': 'rgba(0,0,0,0.05)',
     },
@@ -98,6 +111,7 @@ var defaultTheme = {
       'font-size': '80%',
       'border': '1px solid #dfdfdf',
       'padding': '4px 8px',
+      'text-align': 'center',
     },
     footnote: {
       'font-size': '12px',

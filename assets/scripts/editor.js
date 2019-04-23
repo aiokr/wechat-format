@@ -22,12 +22,11 @@ var app = new Vue({
       ],
       currentTheme: 'default',
       themeOption: [
-        { label: 'default', value: 'default', author: 'Lyric'},
-        { label: 'lupeng', value: 'lupeng', author: '鲁鹏'}
+        { label: 'default', value: 'default', author: 'aiokr'}
       ],
       styleThemes: {
-        default: defaultTheme,
-        lupeng: lupengTheme
+        default: defaultTheme
+        
       },
       aboutDialogVisible: false
     }
