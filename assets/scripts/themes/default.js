@@ -35,8 +35,8 @@ var defaultTheme = {
       'color': '#4285f4'
     },
     p: {
-      'margin': '10px 10px',
-      'line-height': '1.6'
+      'margin': '20px 20px',
+      'line-height': '22px',
     },
     blockquote: {
       'color': 'rgb(91, 91, 91)',
