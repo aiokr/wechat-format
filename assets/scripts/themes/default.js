@@ -34,6 +34,14 @@ var defaultTheme = {
       'margin': '40px 10px 40px 10px',
       'color': '#4285f4'
     },
+    h3: {
+      'font-size': '16px',
+      'text-align': 'center',
+      'font-weight': 'normal',
+      'text-align': 'center',
+      'margin': '40px 10px 40px 10px',
+      'color': '#4285f4'
+    },
     p: {
       'margin': '20px 20px',
       'line-height': '22px',
@@ -77,7 +85,35 @@ var defaultTheme = {
     footnotes: {
       'margin': '10px 10px',
       'font-size': '14px'
-    }  
+    } ,
+    hr: {
+      'border': '1px solid #fbbc05',
+      'margin': '1.5em auto',
+    },
+    table: {
+      'border-collapse': 'collapse',
+      'padding': '0',
+      'margin': '20px 0',
+      'font-weight': 'bold',
+      'color': '#eee',
+      'border': '0',
+      'margin': '0 auto',
+    },
+    thead: {
+      'background': '#4285f4',
+      'font-color': '#fff',
+    },
+    tbody: {
+      'margin': '0',
+      'padding': '0',
+      'border': '0',
+    },
+    td: {
+      'font-size': '80%',
+      'border': '1px solid #dfdfdf',
+      'padding': '4px 8px',
+      'text-align': 'center',
+    },
   },
   inline: {
     // inline element
@@ -99,22 +135,6 @@ var defaultTheme = {
     },
     strong: {
       'color': '#fbbc05'
-    },
-    table: {
-      'border-collapse': 'collapse',
-      'margin': '20px 0',
-      'font-weight': 'bold',
-      'color': '#eee',
-    },
-
-    thead: {
-      'background': 'rgba(0,0,0,0.05)',
-    },
-    td: {
-      'font-size': '80%',
-      'border': '1px solid #dfdfdf',
-      'padding': '4px 8px',
-      'text-align': 'center',
     },
     footnote: {
       'font-size': '12px',
